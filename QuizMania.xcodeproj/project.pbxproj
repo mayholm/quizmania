@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B19A0F71DB0C2AF008CB60A /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B19A0F61DB0C2AF008CB60A /* AppModel.m */; };
+		4B19A0FA1DB0EC6D008CB60A /* AnswerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B19A0F91DB0EC6D008CB60A /* AnswerButton.m */; };
+		4BAFF6771DAD71ED00327AB9 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFF6761DAD71ED00327AB9 /* Operation.m */; };
+		4BAFF67A1DAD730900327AB9 /* URLDataTaskOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFF6791DAD730900327AB9 /* URLDataTaskOperation.m */; };
+		4BAFF6841DAD87E800327AB9 /* GameRoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFF6831DAD87E800327AB9 /* GameRoundController.m */; };
+		4BAFF6871DAD903700327AB9 /* GameRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFF6861DAD903700327AB9 /* GameRound.m */; };
+		4BAFF6891DADE74D00327AB9 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BAFF6881DADE74D00327AB9 /* questions.json */; };
+		4BAFF6911DAE4D4100327AB9 /* LoadQuestionsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAFF6901DAE4D4100327AB9 /* LoadQuestionsOperation.m */; };
+		4BBD987A1DAD500800A6DB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD98791DAD500800A6DB5E /* main.m */; };
+		4BBD987D1DAD500800A6DB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD987C1DAD500800A6DB5E /* AppDelegate.m */; };
+		4BBD987F1DAD500800A6DB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD987E1DAD500800A6DB5E /* Assets.xcassets */; };
+		4BBD98821DAD500800A6DB5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD98801DAD500800A6DB5E /* LaunchScreen.storyboard */; };
+		4BBD98951DAD54D600A6DB5E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD98941DAD54D600A6DB5E /* Question.m */; };
+		4BBD989A1DAD5D9600A6DB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD98991DAD5D9600A6DB5E /* Main.storyboard */; };
+		4BBD989D1DAD5F1900A6DB5E /* UIColor+QMColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD989C1DAD5F1900A6DB5E /* UIColor+QMColors.m */; };
+		4BBD98A11DAD641400A6DB5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD98A01DAD641400A6DB5E /* ViewController.m */; };
+		4BBD98A51DAD643F00A6DB5E /* DashboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD98A41DAD643F00A6DB5E /* DashboardController.m */; };
+		4BD92EBD1DAEA24400D1B58E /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD92EBC1DAEA24400D1B58E /* Answer.m */; };
+		4BD92EC01DAEDE0200D1B58E /* GameFinishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD92EBF1DAEDE0200D1B58E /* GameFinishController.m */; };
+		4BD92ECB1DB02D6900D1B58E /* NSObject+observeKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD92EC81DB02D6900D1B58E /* NSObject+observeKeyPath.m */; };
+		4BD92ECC1DB02D6900D1B58E /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD92ECA1DB02D6900D1B58E /* Observer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B19A0F51DB0C2AF008CB60A /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		4B19A0F61DB0C2AF008CB60A /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		4B19A0F81DB0EC6D008CB60A /* AnswerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerButton.h; sourceTree = "<group>"; };
+		4B19A0F91DB0EC6D008CB60A /* AnswerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerButton.m; sourceTree = "<group>"; };
+		4BAFF6751DAD71ED00327AB9 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		4BAFF6761DAD71ED00327AB9 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		4BAFF6781DAD730900327AB9 /* URLDataTaskOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLDataTaskOperation.h; sourceTree = "<group>"; };
+		4BAFF6791DAD730900327AB9 /* URLDataTaskOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLDataTaskOperation.m; sourceTree = "<group>"; };
+		4BAFF6821DAD87E800327AB9 /* GameRoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRoundController.h; sourceTree = "<group>"; };
+		4BAFF6831DAD87E800327AB9 /* GameRoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRoundController.m; sourceTree = "<group>"; };
+		4BAFF6851DAD903700327AB9 /* GameRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRound.h; sourceTree = "<group>"; };
+		4BAFF6861DAD903700327AB9 /* GameRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRound.m; sourceTree = "<group>"; };
+		4BAFF6881DADE74D00327AB9 /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		4BAFF68F1DAE4D4100327AB9 /* LoadQuestionsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadQuestionsOperation.h; sourceTree = "<group>"; };
+		4BAFF6901DAE4D4100327AB9 /* LoadQuestionsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadQuestionsOperation.m; sourceTree = "<group>"; };
+		4BBD98751DAD500800A6DB5E /* QuizMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BBD98791DAD500800A6DB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BBD987B1DAD500800A6DB5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BBD987C1DAD500800A6DB5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BBD987E1DAD500800A6DB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BBD98811DAD500800A6DB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BBD98831DAD500800A6DB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBD98931DAD54D600A6DB5E /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		4BBD98941DAD54D600A6DB5E /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		4BBD98991DAD5D9600A6DB5E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4BBD989B1DAD5F1900A6DB5E /* UIColor+QMColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QMColors.h"; sourceTree = "<group>"; };
+		4BBD989C1DAD5F1900A6DB5E /* UIColor+QMColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QMColors.m"; sourceTree = "<group>"; };
+		4BBD989F1DAD641400A6DB5E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BBD98A01DAD641400A6DB5E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BBD98A31DAD643F00A6DB5E /* DashboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardController.h; sourceTree = "<group>"; };
+		4BBD98A41DAD643F00A6DB5E /* DashboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardController.m; sourceTree = "<group>"; };
+		4BD92EBB1DAEA24400D1B58E /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		4BD92EBC1DAEA24400D1B58E /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		4BD92EBE1DAEDE0200D1B58E /* GameFinishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFinishController.h; sourceTree = "<group>"; };
+		4BD92EBF1DAEDE0200D1B58E /* GameFinishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFinishController.m; sourceTree = "<group>"; };
+		4BD92EC71DB02D6900D1B58E /* NSObject+observeKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+observeKeyPath.h"; sourceTree = "<group>"; };
+		4BD92EC81DB02D6900D1B58E /* NSObject+observeKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+observeKeyPath.m"; sourceTree = "<group>"; };
+		4BD92EC91DB02D6900D1B58E /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		4BD92ECA1DB02D6900D1B58E /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BBD98721DAD500800A6DB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BBD986C1DAD500800A6DB5E = {
+			isa = PBXGroup;
+			children = (
+				4BBD98771DAD500800A6DB5E /* QuizMania */,
+				4BBD98761DAD500800A6DB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BBD98761DAD500800A6DB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD98751DAD500800A6DB5E /* QuizMania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BBD98771DAD500800A6DB5E /* QuizMania */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD98901DAD52E300A6DB5E /* Models */,
+				4BBD98911DAD545700A6DB5E /* Controllers */,
+				4BBD98921DAD546400A6DB5E /* Views */,
+				4BBD98961DAD5ADC00A6DB5E /* Operations */,
+				4BBD989E1DAD5F1F00A6DB5E /* Categories */,
+				4BBD987B1DAD500800A6DB5E /* AppDelegate.h */,
+				4BBD987C1DAD500800A6DB5E /* AppDelegate.m */,
+				4BBD987E1DAD500800A6DB5E /* Assets.xcassets */,
+				4BBD98801DAD500800A6DB5E /* LaunchScreen.storyboard */,
+				4BBD98831DAD500800A6DB5E /* Info.plist */,
+				4BBD98781DAD500800A6DB5E /* Supporting Files */,
+				4BAFF6881DADE74D00327AB9 /* questions.json */,
+			);
+			path = QuizMania;
+			sourceTree = "<group>";
+		};
+		4BBD98781DAD500800A6DB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD98791DAD500800A6DB5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BBD98901DAD52E300A6DB5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD98931DAD54D600A6DB5E /* Question.h */,
+				4BBD98941DAD54D600A6DB5E /* Question.m */,
+				4BAFF6851DAD903700327AB9 /* GameRound.h */,
+				4BAFF6861DAD903700327AB9 /* GameRound.m */,
+				4BD92EBB1DAEA24400D1B58E /* Answer.h */,
+				4BD92EBC1DAEA24400D1B58E /* Answer.m */,
+				4B19A0F51DB0C2AF008CB60A /* AppModel.h */,
+				4B19A0F61DB0C2AF008CB60A /* AppModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4BBD98911DAD545700A6DB5E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD98A21DAD641F00A6DB5E /* Main */,
+				4BBD989F1DAD641400A6DB5E /* ViewController.h */,
+				4BBD98A01DAD641400A6DB5E /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4BBD98921DAD546400A6DB5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B19A0F81DB0EC6D008CB60A /* AnswerButton.h */,
+				4B19A0F91DB0EC6D008CB60A /* AnswerButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4BBD98961DAD5ADC00A6DB5E /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4BAFF6751DAD71ED00327AB9 /* Operation.h */,
+				4BAFF6761DAD71ED00327AB9 /* Operation.m */,
+				4BAFF6781DAD730900327AB9 /* URLDataTaskOperation.h */,
+				4BAFF6791DAD730900327AB9 /* URLDataTaskOperation.m */,
+				4BAFF68F1DAE4D4100327AB9 /* LoadQuestionsOperation.h */,
+				4BAFF6901DAE4D4100327AB9 /* LoadQuestionsOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		4BBD989E1DAD5F1F00A6DB5E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD989B1DAD5F1900A6DB5E /* UIColor+QMColors.h */,
+				4BBD989C1DAD5F1900A6DB5E /* UIColor+QMColors.m */,
+				4BD92ECD1DB02D9600D1B58E /* NSObject+Observer */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		4BBD98A21DAD641F00A6DB5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4BBD98991DAD5D9600A6DB5E /* Main.storyboard */,
+				4BBD98A31DAD643F00A6DB5E /* DashboardController.h */,
+				4BBD98A41DAD643F00A6DB5E /* DashboardController.m */,
+				4BAFF6821DAD87E800327AB9 /* GameRoundController.h */,
+				4BAFF6831DAD87E800327AB9 /* GameRoundController.m */,
+				4BD92EBE1DAEDE0200D1B58E /* GameFinishController.h */,
+				4BD92EBF1DAEDE0200D1B58E /* GameFinishController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4BD92ECD1DB02D9600D1B58E /* NSObject+Observer */ = {
+			isa = PBXGroup;
+			children = (
+				4BD92EC71DB02D6900D1B58E /* NSObject+observeKeyPath.h */,
+				4BD92EC81DB02D6900D1B58E /* NSObject+observeKeyPath.m */,
+				4BD92EC91DB02D6900D1B58E /* Observer.h */,
+				4BD92ECA1DB02D6900D1B58E /* Observer.m */,
+			);
+			name = "NSObject+Observer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BBD98741DAD500800A6DB5E /* QuizMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BBD98861DAD500800A6DB5E /* Build configuration list for PBXNativeTarget "QuizMania" */;
+			buildPhases = (
+				4BBD98711DAD500800A6DB5E /* Sources */,
+				4BBD98721DAD500800A6DB5E /* Frameworks */,
+				4BBD98731DAD500800A6DB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizMania;
+			productName = QuizMania;
+			productReference = 4BBD98751DAD500800A6DB5E /* QuizMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BBD986D1DAD500800A6DB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Pär Majholm";
+				TargetAttributes = {
+					4BBD98741DAD500800A6DB5E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V46E8G979N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4BBD98701DAD500800A6DB5E /* Build configuration list for PBXProject "QuizMania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BBD986C1DAD500800A6DB5E;
+			productRefGroup = 4BBD98761DAD500800A6DB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BBD98741DAD500800A6DB5E /* QuizMania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BBD98731DAD500800A6DB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBD989A1DAD5D9600A6DB5E /* Main.storyboard in Resources */,
+				4BAFF6891DADE74D00327AB9 /* questions.json in Resources */,
+				4BBD987F1DAD500800A6DB5E /* Assets.xcassets in Resources */,
+				4BBD98821DAD500800A6DB5E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BBD98711DAD500800A6DB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B19A0F71DB0C2AF008CB60A /* AppModel.m in Sources */,
+				4B19A0FA1DB0EC6D008CB60A /* AnswerButton.m in Sources */,
+				4BBD98951DAD54D600A6DB5E /* Question.m in Sources */,
+				4BBD989D1DAD5F1900A6DB5E /* UIColor+QMColors.m in Sources */,
+				4BD92EC01DAEDE0200D1B58E /* GameFinishController.m in Sources */,
+				4BAFF6911DAE4D4100327AB9 /* LoadQuestionsOperation.m in Sources */,
+				4BAFF67A1DAD730900327AB9 /* URLDataTaskOperation.m in Sources */,
+				4BAFF6871DAD903700327AB9 /* GameRound.m in Sources */,
+				4BAFF6841DAD87E800327AB9 /* GameRoundController.m in Sources */,
+				4BBD98A51DAD643F00A6DB5E /* DashboardController.m in Sources */,
+				4BBD987D1DAD500800A6DB5E /* AppDelegate.m in Sources */,
+				4BBD987A1DAD500800A6DB5E /* main.m in Sources */,
+				4BAFF6771DAD71ED00327AB9 /* Operation.m in Sources */,
+				4BD92EBD1DAEA24400D1B58E /* Answer.m in Sources */,
+				4BD92ECC1DB02D6900D1B58E /* Observer.m in Sources */,
+				4BBD98A11DAD641400A6DB5E /* ViewController.m in Sources */,
+				4BD92ECB1DB02D6900D1B58E /* NSObject+observeKeyPath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BBD98801DAD500800A6DB5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BBD98811DAD500800A6DB5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BBD98841DAD500800A6DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_ASSIGN_ENUM = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BBD98851DAD500800A6DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_ASSIGN_ENUM = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BBD98871DAD500800A6DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V46E8G979N;
+				INFOPLIST_FILE = QuizMania/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayholm.QuizMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BBD98881DAD500800A6DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V46E8G979N;
+				INFOPLIST_FILE = QuizMania/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayholm.QuizMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BBD98701DAD500800A6DB5E /* Build configuration list for PBXProject "QuizMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBD98841DAD500800A6DB5E /* Debug */,
+				4BBD98851DAD500800A6DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BBD98861DAD500800A6DB5E /* Build configuration list for PBXNativeTarget "QuizMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BBD98871DAD500800A6DB5E /* Debug */,
+				4BBD98881DAD500800A6DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BBD986D1DAD500800A6DB5E /* Project object */;
+}

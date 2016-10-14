@@ -1,0 +1,192 @@
+ [
+  {
+  "text": "Grand Central Terminal, Park Avenue, New York is the world's",
+  "options": [ "largest railway station", "highest railway station", "longest railway station", "none of the above" ],
+  "indexOfCorrectOption": 0,
+  "identifier": "3"
+  },
+  {
+  "text": "Entomology is the science that studies",
+  "options": [ "Behavior of human beings", "Insects", "The origin and history words", "The formation of rocks" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "4"
+  },
+  {
+  "text": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of",
+  "options": [ "Asia", "Africa", "Europe", "Australia" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "5"
+  },
+  {
+  "text": "For which of the following disciplines is Nobel Prize awarded?",
+  "options": [ "Physics and Chemistry", "Physiology or Medicine", "Literature, Peace and Economics", "All of the above" ],
+  "indexOfCorrectOption": 3,
+  "identifier": "6"
+  },
+  {
+  "text": "The German party which came into power in 1933 is known as",
+  "options": [ "Labour Party", "Nazi Party", "Ku-Klux-Klan", "Democratic Party" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "7"
+  },
+  {
+  "text": "Epsom (England) is the place associated with",
+  "options": [ "Horse racing", "Polo", "Shooting", "Snooker" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "8"
+  },
+  {
+  "text": "What is this?",
+  "options": [ "Horse", "Wolf", "Ladybug", "Aircraft Carrier" ],
+  "indexOfCorrectOption": 2,
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/08/7-Spotted-Ladybug-Coccinella-septempunctata-sq1.jpg",
+  "identifier": "9"
+  },
+  {
+  "text": "Who's this?",
+  "options": [ "Kiera Knightley", "Barbossa", "Captain Jack Sparrow", "Jack Sparrow" ],
+  "indexOfCorrectOption": 2,
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JohnnyDeppByArnoldWells2011.jpg",
+  "identifier": "11"
+  },
+  {
+  "text": "Whats this ship called?",
+  "options": [ "Black pearl", "Hannah", "Arthur III", "Slice of life" ],
+  "indexOfCorrectOption": 0,
+  "imageURL": "https://c1.staticflickr.com/1/82/234284984_4d26f860aa_b.jpg",
+  "identifier": "12"
+  },
+  {
+  "text": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+  "options": [ "Oxygen", "Hydrogen sulphide", "Carbon dioxide", "Nitrogen" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "13"
+  },
+  {
+  "text": "Which of the following is a non metal that remains liquid at room temperature?",
+  "options": [ "Phosphorous", "Bromine", "Chlorine", "Helium" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "14"
+  },
+  {
+  "text": "Chlorophyll is a naturally occurring chelate compound in which the central metal is",
+  "options": [ "Copper", "Magnesium", "Iron", "Calcium" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "15"
+  },
+  {
+  "text": "Which of the following is used in pencils?",
+  "options": [ "Graphite", "Silicon", "Charcoal", "Phosphorous" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "16"
+  },
+  {
+  "text": "Which of the following metals forms an amalgam with other metals?",
+  "options": [ "Tin", "Mercury", "Lead", "Zinc" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "17"
+  },
+  {
+  "text": "The gas usually filled in the electric bulb is",
+  "options": [ "Nitrogen", "Hydrogen", "Carbon Dioxide", "Cxygen" ],
+  "indexOfCorrectOption": 0,
+  "identifier": "18"
+  },
+  {
+  "text": "Quartz crystals normally used in quartz clocks etc. is chemically",
+  "options": [ "Silicon Dioxide", "Germanium Oxide", "A mix of Germanium Oxide and Silicon Dioxide", "Sodium Silicate" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "19"
+  },
+  {
+  "text": "Which of the gas is not known as green house gas?",
+  "options": [ "Methane", "Nitrous Oxide", "Carbon Dioxide", "Hydrogen" ],
+  "indexOfCorrectOption": 3,
+  "identifier": "20"
+  },
+  {
+  "text": "Bromine is a",
+  "options": [ "Black solid", "Red liquid", "Colourless gas", "Highly inflammable gas" ],
+  "indexOfCorrectOption": 1,
+  "identifier": "21"
+  },
+  {
+  "text": "The hardest substance available on earth is",
+  "options": [ "Sapphire", "Titanium", "Diamond", "Platinum" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "22"
+  },
+  {
+  "text": "The variety of coal in which the deposit contains recognisable traces of the original plant material is",
+  "options": [ "Bitumen", "Anthracite", "Lignite", "Peat" ],
+  "indexOfCorrectOption": 3,
+  "identifier": "23"
+  },
+  {
+  "text": "Pinocchio says that his nose will grow. What happens?",
+  "options": [ "It grows", "It doesn't grow", "This is stupid", "The simulation we live in crashes" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "24"
+  },
+  {
+  "text": "When was barb wire patented?",
+  "options": [ "1874", "1840", "1895", "1900" ],
+  "indexOfCorrectOption": 0,
+  "identifier": "25"
+  },
+  {
+  "text": "What is the name of the CalTech seismologist who invented the scale used to measure the magnitude of earthquakes?",
+  "options": [ "Giuseppe Mercalli", "Joshua Rumble", "Charles Richter", "Hiram Walker" ],
+  "indexOfCorrectOption": 2,
+  "identifier": "26"
+  },
+  {
+  "text": "How much does a million US dollars in 100s weigh?",
+  "options": [ "10 kg", "30 kg", "5.5 kg", "21 kg" ],
+  "indexOfCorrectOption": 0,
+  "imageURL": "https://c1.staticflickr.com/7/6113/6355272111_56622c7153_b.jpg",
+  "identifier": "27"
+  },
+  {
+  "text": "How far away is the surface of the Moon from the surface of Earth",
+  "options": [ "2 030 000 km", "700 000 km", "385 000 km", "120 390 km" ],
+  "indexOfCorrectOption": 2 ,
+  "imageURL": "https://static.pexels.com/photos/29734/pexels-photo-29734.jpg",
+  "identifier": "28"
+  },
+  {
+  "text": "Whats the price per kg of a base spec iPhone 7",
+  "options": [ "$560 / kg", "$4,702 / kg","$3,577 / kg", "$40,244 / kg" ],
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/04/Iphone-62.jpg",
+  "indexOfCorrectOption": 1 ,
+  "identifier": "29"
+  },
+  {
+  "text": "Whats the price per kg of gold",
+  "options": [ "$560 / kg", "$4,702 / kg","$3,577 / kg", "$40,244 / kg" ],
+  "indexOfCorrectOption": 3 ,
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gold_Bars.jpg",
+  "identifier": "30"
+  },
+  {
+  "text": "Whats the price per kg of silver",
+  "options": [ "$560 / kg", "$4,702 / kg","$3,577 / kg", "$40,244 / kg" ],
+  "indexOfCorrectOption": 0 ,
+  "imageURL": "https://c2.staticflickr.com/8/7370/10304285224_bbf22fc188_b.jpg",
+  "identifier": "31"
+  },
+  {
+  "text": "What is this?",
+  "options": [ "Multi-camera", "Heating element", "Laser reflector", "Tube holder" ],
+  "indexOfCorrectOption": 2 ,
+  "imageURL": "https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiment#/media/File:ALSEP_AS15-85-11468.jpg",
+  "identifier": "32"
+  },
+  {
+  "text": "Whats the probability of being dealt a pair of aces in texas holdem?",
+  "options": [ "0.04%", "1.1%", "0.2%", "0.4%" ],
+  "indexOfCorrectOption": 2 ,
+  "imageURL": "https://c2.staticflickr.com/4/3069/5857248045_01f779fcd9_b.jpg",
+  "identifier": "33"
+  }
+  ]
