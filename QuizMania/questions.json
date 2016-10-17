@@ -26,7 +26,7 @@
   {
   "text": "The German party which came into power in 1933 is known as",
   "options": [ "Labour Party", "Nazi Party", "Ku-Klux-Klan", "Democratic Party" ],
-  "indexOfCorrectOption": 2,
+  "indexOfCorrectOption": 1,
   "identifier": "7"
   },
   {
@@ -44,8 +44,8 @@
   },
   {
   "text": "Who's this?",
-  "options": [ "Kiera Knightley", "Barbossa", "Captain Jack Sparrow", "Jack Sparrow" ],
-  "indexOfCorrectOption": 2,
+  "options": [ "Kiera Knightley", "Barbossa", "Jack Sparrow", "Captain Jack Sparrow" ],
+  "indexOfCorrectOption": 3,
   "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/f9/JohnnyDeppByArnoldWells2011.jpg",
   "identifier": "11"
   },
@@ -65,7 +65,7 @@
   {
   "text": "Which of the following is a non metal that remains liquid at room temperature?",
   "options": [ "Phosphorous", "Bromine", "Chlorine", "Helium" ],
-  "indexOfCorrectOption": 2,
+  "indexOfCorrectOption": 1,
   "identifier": "14"
   },
   {
@@ -77,7 +77,7 @@
   {
   "text": "Which of the following is used in pencils?",
   "options": [ "Graphite", "Silicon", "Charcoal", "Phosphorous" ],
-  "indexOfCorrectOption": 1,
+  "indexOfCorrectOption": 0,
   "identifier": "16"
   },
   {
@@ -88,14 +88,14 @@
   },
   {
   "text": "The gas usually filled in the electric bulb is",
-  "options": [ "Nitrogen", "Hydrogen", "Carbon Dioxide", "Cxygen" ],
+  "options": [ "Nitrogen", "Hydrogen", "Carbon Dioxide", "Oxygen" ],
   "indexOfCorrectOption": 0,
   "identifier": "18"
   },
   {
   "text": "Quartz crystals normally used in quartz clocks etc. is chemically",
   "options": [ "Silicon Dioxide", "Germanium Oxide", "A mix of Germanium Oxide and Silicon Dioxide", "Sodium Silicate" ],
-  "indexOfCorrectOption": 2,
+  "indexOfCorrectOption": 0,
   "identifier": "19"
   },
   {
@@ -157,7 +157,7 @@
   {
   "text": "Whats the price per kg of a base spec iPhone 7",
   "options": [ "$560 / kg", "$4,702 / kg","$3,577 / kg", "$40,244 / kg" ],
-  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/04/Iphone-62.jpg",
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/37/Iphone_back.jpg",
   "indexOfCorrectOption": 1 ,
   "identifier": "29"
   },
@@ -179,7 +179,7 @@
   "text": "What is this?",
   "options": [ "Multi-camera", "Heating element", "Laser reflector", "Tube holder" ],
   "indexOfCorrectOption": 2 ,
-  "imageURL": "https://en.wikipedia.org/wiki/Lunar_Laser_Ranging_experiment#/media/File:ALSEP_AS15-85-11468.jpg",
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/21/ALSEP_AS15-85-11468.jpg",
   "identifier": "32"
   },
   {
